@@ -31,6 +31,7 @@ typography:
       source: google
   base: Jura
   headings: Jura
+
 ```
 
 To preview locally, run:

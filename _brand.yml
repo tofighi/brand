@@ -26,6 +26,6 @@ typography:
         - path: https://tofighi.github.io/resources/GoogleSans-MediumItalic.ttf
           weight: medium
           style: italic
-  base: Google Sans
-  headings: Google Sans
-  monospace: Fira Code
+    base: Google Sans
+    headings: Google Sans
+    monospace: Fira Code

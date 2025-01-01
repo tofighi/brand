@@ -10,6 +10,13 @@ logo:
   medium: logo.png
 
 typography:
+  fonts:
+    - family: Jura
+      source: google
+    - family: Roboto
+      source: google
+    - family: Fira Code
+      source: google
     - family: Google Sans
       source: file
       files:
@@ -26,6 +33,6 @@ typography:
         - path: https://tofighi.github.io/resources/GoogleSans-MediumItalic.ttf
           weight: medium
           style: italic
-    base: Google Sans
-    headings: Google Sans
-    monospace: Fira Code
+  base: Google Sans
+  headings: Google Sans
+  monospace: Fira Code

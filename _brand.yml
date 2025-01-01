@@ -2,7 +2,7 @@ color:
   palette:
     dark-grey: "#222222"
     blue: "#ddeaf1"
-  background: blue
+  background: green
   foreground: dark-grey
   primary: black
 
@@ -10,8 +10,22 @@ logo:
   medium: logo.png
 
 typography:
-  fonts:
-    - family: Jura
-      source: google
-  base: Jura
-  headings: Jura
+    - family: Google Sans
+      source: file
+      files:
+        - path: https://tofighi.github.io/resources/GoogleSans-Regular.ttf
+        - path: https://tofighi.github.io/resources/GoogleSans-Bold.ttf
+          weight: bold
+        - path: https://tofighi.github.io/resources/GoogleSans-BoldItalic.ttf
+          weight: bold
+          style: italic
+        - path: https://tofighi.github.io/resources/GoogleSans-Italic.ttf
+          style: italic
+        - path: https://tofighi.github.io/resources/GoogleSans-Medium.ttf
+          weight: medium
+        - path: https://tofighi.github.io/resources/GoogleSans-MediumItalic.ttf
+          weight: medium
+          style: italic
+  base: Google Sans
+  headings: Google Sans
+  monospace: Fira Code
